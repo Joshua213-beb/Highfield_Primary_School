@@ -229,13 +229,10 @@ body {
 /*-----------------------------------*\
   #REUSED STYLE
 \*-----------------------------------*/
-.container {
-  padding-inline: 15px;
-}
 
-.section {
-  padding-block: 40px; /* Reduced padding-block to make sections tighter */
-}
+.container { padding-inline: 15px; }
+
+.section { padding-block: var(--section-padding); }
 
 .shape {
   position: absolute;
